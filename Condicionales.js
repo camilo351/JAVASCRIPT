@@ -225,3 +225,129 @@
 // }else {
 //     console.log ('Sigamos')
 // };
+
+// EJERCICIO 21
+// let num1 = parseInt(prompt('Numero1: '));
+// let num2 = parseInt(prompt('Numero2: '));
+// let operacion = parseInt(prompt('Qué operacion deseas hacer: '));
+// switch (operacion){
+//     case 1:
+//         console.log(num1 + num2);
+//         break;
+//     case 2:
+//         console.log(num1 - num2);
+//         break;
+//     case 3:
+//         console.log(num1 * num2);
+//         break;
+//     case 4:
+//         if (num1 == 0 || num2 == 0){
+//             console.log('No se puede hacer division por 0');
+//         }
+//         else {
+//             console.log (num1 / num2)
+//         };
+//         break;
+//     default:
+//         console.log ('Operacion invalida');
+// };
+
+//EJERCICIO 22
+// let numeroDia = parseInt(prompt('Numero Dia semana'));
+// let diaSemana;
+// switch (numeroDia){
+//     case 1:
+//         diaSemana = 'Lunes';
+//         break;
+//     case 2:
+//         diaSemana = 'Martes';
+//         break;
+//     case 3:
+//         diaSemana = 'Miercoles';
+//         break;
+//     case 4:
+//         diaSemana = 'Jueves';
+//         break;
+//     case 5:
+//         diaSemana = 'Viernes';
+//         break;
+//     case 6:
+//         diaSemana = 'Sabado';
+//         break;
+//     case 7:
+//         diaSemana = 'Domingo';
+//         break;
+//     default:
+//         console.log('El dia no existe');
+// }
+// console.log(diaSemana);
+
+//EJERCICIO 23
+// let edad = parseInt(prompt('Edad: '));
+// let grupo;
+// if (edad == 0) {
+//     grupo = 'cero';
+// } else if (edad <= 14){
+//     grupo = 'infantil';
+// } else if (edad >= 15 && edad <= 26){
+//     grupo = 'Adolecentes';
+// } else{
+//     grupo = 'Adulto';
+// };
+// switch (grupo){
+//     case 'infantil':
+//         console.log('peliculas infantiles');
+//         break;
+//     case 'Adolecentes':
+//         console.log('Peliculas adolecentes');
+//         break;
+//     case 'Adulto':
+//         console.log('Peliculas de adultos');
+//         break;
+//     case 'cero':
+//         console.log('No puedes tener 0 años');
+//         break;
+//     default:
+//         console.log('ERROR');
+// };
+
+// EJERCICIO 24
+// let conversion = prompt('De Celsius a Fahrenheit o de Fahrenheit a Celsius: ');
+// let grados = parseInt(prompt('Grados: '))
+// switch (conversion){
+//     case 'Celsius':
+//         console.log((grados * 1.8) + 32);
+//         break;
+//     case 'Fahrenheit':
+//         console.log((grados - 32) * 5/9);
+//         break;
+//     default:
+//         console.log('No existe esa conversión');
+// };
+
+// EJERCICIO 25
+let nota = parseInt(prompt('Nota: '));
+let estado;
+if (nota < 5) {
+    estado = 'bajo';
+}else if (nota >= 5 && nota <= 7){
+    estado = 'Regular';
+}else if (nota >= 8 && nota <= 9){
+    estado = 'bueno';
+}else{
+    estado = 'Excelente';
+};
+switch (estado){
+    case 'bajo':
+        console.log('Reprobado');
+        break;
+    case 'Regular':
+        console.log('Regular');
+        break;
+    case 'bueno':
+        console.log('Bueno');
+        break;
+    case 'Excelente':
+        console.log('Excelente');
+        break;
+};
