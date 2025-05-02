@@ -326,28 +326,28 @@
 // };
 
 // EJERCICIO 25
-let nota = parseInt(prompt('Nota: '));
-let estado;
-if (nota < 5) {
-    estado = 'bajo';
-}else if (nota >= 5 && nota <= 7){
-    estado = 'Regular';
-}else if (nota >= 8 && nota <= 9){
-    estado = 'bueno';
-}else{
-    estado = 'Excelente';
-};
-switch (estado){
-    case 'bajo':
-        console.log('Reprobado');
-        break;
-    case 'Regular':
-        console.log('Regular');
-        break;
-    case 'bueno':
-        console.log('Bueno');
-        break;
-    case 'Excelente':
-        console.log('Excelente');
-        break;
-};
+// let nota = parseInt(prompt('Nota: '));
+// let estado;
+// if (nota < 5) {
+//     estado = 'bajo';
+// }else if (nota >= 5 && nota <= 7){
+//     estado = 'Regular';
+// }else if (nota >= 8 && nota <= 9){
+//     estado = 'bueno';
+// }else{
+//     estado = 'Excelente';
+// };
+// switch (estado){
+//     case 'bajo':
+//         console.log('Reprobado');
+//         break;
+//     case 'Regular':
+//         console.log('Regular');
+//         break;
+//     case 'bueno':
+//         console.log('Bueno');
+//         break;
+//     case 'Excelente':
+//         console.log('Excelente');
+//         break;
+// };
